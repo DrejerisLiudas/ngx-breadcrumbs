@@ -3,5 +3,8 @@
   "dest": "../../../build/ngx-breadcrumbs",
   "lib": {
     "entryFile": "public_api.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies": [
+    "tslib", "lodash.template"
+  ]
 }
