@@ -19,9 +19,9 @@
     "breadcrumbs",
     "routing"
   ],
-  "bundledDependencies": [
-    "lodash.template"
-  ],
+  "dependencies": {
+    "lodash.template": "^4.4.0"
+  },
   "peerDependencies": {
     "@angular/core": ">=4.0.0 <6.0.0 || >=4.0.0-beta <6.0.0",
     "@angular/router": ">=4.0.0 <6.0.0",
