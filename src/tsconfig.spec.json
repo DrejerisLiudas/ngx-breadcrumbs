@@ -1,0 +1,24 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/spec",
+    "baseUrl": "./",
+    "module": "commonjs",
+    "types": [
+      "jasmine",
+      "node"
+    ],
+    "paths": {
+      "@exalif/ngx-breadcrumbs": [
+        "./lib/breadcrumbs"
+      ]
+    }
+  },
+  "files": [
+    "test.ts"
+  ],
+  "include": [
+    "**/*.spec.ts",
+    "**/*.d.ts"
+  ]
+}
